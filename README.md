@@ -8,4 +8,4 @@ Dibuat untuk keperluan tugas mata kuliah Pemrograman mobile
 
 Dokumentasi : http://alvinux.me/android-aplikasi-katalog-online/
 
-(alvin.i@students.amikom.ac.id)
+(@alvinux)
