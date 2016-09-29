@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+<RelativeLayout
+    android:id="@+id/layar"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+ 
+ <AbsoluteLayout
+     android:id="@+id/layar2"
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+     android:background="#ffffffff"
+     android:fadingEdge="vertical"
+     android:scrollbars="vertical" >
+
+     <ImageView
+         android:id="@+id/gambar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:adjustViewBounds="true"
+         android:fadingEdge="vertical"
+         android:fitsSystemWindows="true"
+         android:scaleType="fitStart"
+         android:scrollbars="vertical"
+         android:src="@drawable/bg" >
+     </ImageView>
+
+     <TextView
+         android:id="@+id/strNamaProduk"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="16dp"
+         android:layout_y="24dp"
+         android:text="Large Text"
+         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="97dp"
+         android:layout_y="322dp"
+         android:text="Booking Produk" />
+
+     <TextView
+         android:id="@+id/strDeskripsiPrdk"
+         android:layout_width="260dp"
+         android:layout_height="72dp"
+         android:layout_x="36dp"
+         android:layout_y="172dp"
+         android:text="TextView" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="37dp"
+         android:layout_y="264dp"
+         android:text="Stok : " />
+
+     <TextView
+         android:id="@+id/strStok"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="87dp"
+         android:layout_y="266dp"
+         android:text="Medium Text"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/strHarga"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="86dp"
+         android:layout_y="290dp"
+         android:text="Medium Text"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="36dp"
+         android:layout_y="291dp"
+         android:text="Harga :" />
+
+ </AbsoluteLayout>
+
+</RelativeLayout>
+</ScrollView>

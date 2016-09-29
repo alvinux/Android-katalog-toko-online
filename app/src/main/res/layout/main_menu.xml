@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"  
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal" >
+            
+		     <Button android:background="#000" 
+		         android:gravity="center" 
+		         android:id="@+id/btnTas"
+		          android:layout_weight="1" 
+		          android:padding="20dip" 
+		          android:text="Tas"
+		          android:textColor="#fff"
+		          android:layout_width="20dip"
+		          android:drawableTop="@drawable/ictas2"
+		          > </Button>
+        	<Button 
+	            android:background="#000" 
+	            android:gravity="center"
+	             android:id="@+id/btnSepatu"
+	              android:layout_weight="1" 
+	              android:padding="20dip" 
+	              android:text="Sepatu"
+	              android:textColor="#fff"
+	              android:layout_width="20dip"
+	              android:drawableTop="@drawable/icsepatu"
+              >  </Button>
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+        	
+            
+            <Button android:background="#000" 
+		         android:gravity="center" 
+		         android:id="@+id/btnHelp"
+		          android:layout_weight="1" 
+		          android:padding="20dip" 
+		          android:text="Bantuan"
+		          android:textColor="#fff"
+		          android:layout_width="20dip"
+		          android:drawableTop="@drawable/ichelp"
+		          > </Button>
+        	<Button 
+	            android:background="#000" 
+	            android:gravity="center"
+	             android:id="@+id/btnAbout"
+	              android:layout_weight="1" 
+	              android:padding="20dip" 
+	              android:text="About Us"
+	              android:textColor="#fff"
+	              android:layout_width="20dip"
+	              android:drawableTop="@drawable/icabout">  </Button>
+            
+            
+        </TableRow> 
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+        	
+            
+            <Button android:background="#000" 
+		         android:gravity="center" 
+		         android:id="@+id/btnExit"
+		          android:layout_weight="1" 
+		          android:padding="20dip" 
+		          android:text="Exit"
+		          android:textColor="#fff"
+		          android:layout_width="20dip"
+		          android:drawableTop="@drawable/icexit"></Button>
+		   
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

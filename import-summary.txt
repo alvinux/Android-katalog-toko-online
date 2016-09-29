@@ -1,0 +1,119 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\finalprojekpm\
+* app\src\main\java\com\finalprojekpm\AmbilData.java
+* app\src\main\java\com\finalprojekpm\EntitasProduk.java
+* app\src\main\java\com\finalprojekpm\JSONParser.java
+* app\src\main\java\com\finalprojekpm\MenuActivity.java
+* app\src\main\java\com\finalprojekpm\MenuBaseAdapter.java
+* app\src\main\java\com\finalprojekpm\about.java
+* app\src\main\java\com\finalprojekpm\help.java
+* app\src\main\java\com\finalprojekpm\menu.java
+* app\src\main\java\com\finalprojekpm\muka.java
+* app\src\main\java\com\finalprojekpm\t1.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\Thumbs.db
+* app\src\main\res\drawable-hdpi\icon.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\icon.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\icon.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\Thumbs.db
+* app\src\main\res\drawable\about.jpg
+* app\src\main\res\drawable\bantuans.psd
+* app\src\main\res\drawable\bg.jpg
+* app\src\main\res\drawable\bg2.jpg
+* app\src\main\res\drawable\buka.jpg
+* app\src\main\res\drawable\help1.jpg
+* app\src\main\res\drawable\icabout.png
+* app\src\main\res\drawable\icexit.png
+* app\src\main\res\drawable\ichelp.png
+* app\src\main\res\drawable\icsepatu.png
+* app\src\main\res\drawable\ictas.png
+* app\src\main\res\drawable\ictas2.png
+* app\src\main\res\drawable\pause.png
+* app\src\main\res\drawable\play.png
+* app\src\main\res\drawable\stop.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\about.xml
+* app\src\main\res\layout\dialog_custom.xml
+* app\src\main\res\layout\dialog_customs.xml
+* app\src\main\res\layout\help.xml
+* app\src\main\res\layout\item_custom_listview.xml
+* app\src\main\res\layout\main_menu.xml
+* app\src\main\res\layout\menu.xml
+* app\src\main\res\layout\startup.xml
+* app\src\main\res\layout\t1.xml
+* app\src\main\res\layout\xvxcvxcv.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard.cfg
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

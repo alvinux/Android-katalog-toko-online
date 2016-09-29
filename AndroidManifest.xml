@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.finalprojekpm"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/home1">
+        <activity android:name="com.finalprojekpm.muka" android:label="@string/home1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity android:name="com.finalprojekpm.about"
+        			android:label="@string/ABOUT">
+       			</activity>  
+       			 <activity android:name="com.finalprojekpm.help"
+        			android:label="@string/help">
+       			</activity> 
+       		<activity android:name="com.finalprojekpm.s1"
+        			android:label="@string/d1">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d2"
+        			android:label="@string/d2">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d3"
+        			android:label="@string/d3">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d4"
+        			android:label="@string/d4">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d5"
+        			android:label="@string/d5">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d6"
+        			android:label="@string/d6">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d7"
+        			android:label="@string/d7">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d8"
+        			android:label="@string/d8">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d9"
+        			android:label="@string/d9">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.d10"
+        			android:label="@string/d10">
+       			</activity>
+       		<activity android:name="com.finalprojekpm.t1"
+        			android:label="@string/dd1">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd2"
+        			android:label="@string/dd2">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd3"
+        			android:label="@string/dd3">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd4"
+        			android:label="@string/dd4">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd5"
+        			android:label="@string/dd5">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd6"
+        			android:label="@string/dd6">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd7"
+        			android:label="@string/dd7">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd8"
+        			android:label="@string/dd8">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd9"
+        			android:label="@string/dd9">
+       			</activity>	
+       		<activity android:name="com.finalprojekpm.dd10"
+        			android:label="@string/dd10">
+       			</activity>		
+       			<activity android:name="com.finalprojekpm.menutas"
+        			android:label="@string/menuquran">
+       			</activity>
+       			<activity android:name="com.finalprojekpm.menusepatu"
+        			android:label="@string/menuhadis">
+       			</activity>	
+       			<activity android:name="com.finalprojekpm.menu"
+        			android:label="@string/menu">
+       			</activity>		
+       			<activity android:name="com.finalprojekpm.zoom"
+        			android:label="@string/zoom">
+       			</activity>
+       			<activity android:name="MenuActivity"></activity>		
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+</manifest> 

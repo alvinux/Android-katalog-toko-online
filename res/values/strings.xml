@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <string name="home1">Aplikasi Katalog</string>
+   <string name="home"></string>
+    <string name="ABOUT"></string>
+    <string name="help"></string>
+    <string name="d1"></string>
+    <string name="d2"></string>
+    <string name="d3"></string>
+    <string name="d4"></string>
+    <string name="d5"></string>
+    <string name="d6"></string>
+    <string name="d7"></string>
+    <string name="d8"></string>
+    <string name="d9"></string>
+    <string name="d10"></string>
+    <string name="dd1"></string>
+    <string name="dd2"></string>
+    <string name="dd3"></string>
+    <string name="dd4"></string>
+    <string name="dd5"></string>
+    <string name="dd6"></string>
+    <string name="dd7"></string>
+    <string name="dd8"></string>
+    <string name="dd9"></string>
+    <string name="dd10"></string>
+    <string name="zoom"></string>
+    
+    <string name="menuquran"></string>
+    <string name="menuhadis"></string>
+    <string name="menu"></string>
+     <string name="menu_zoom">Zoom</string>
+    <string name="menu_pan">Pan</string>
+    <string name="menu_reset">Reset</string>
+</resources>
